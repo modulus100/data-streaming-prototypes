@@ -3,5 +3,5 @@
  */
 
 plugins {
-    id("data.streaming.prototypes.java-library-conventions")
+    id("java-library-conventions")
 }

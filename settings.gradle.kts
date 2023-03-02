@@ -8,4 +8,5 @@
  */
 
 rootProject.name = "data-streaming-prototypes"
-include("app", "app:list", "utilities")
+include("kafka-streams", "kafka-streams:list", "utilities")
+include("apache-flink")

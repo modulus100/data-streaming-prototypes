@@ -3,9 +3,9 @@
  */
 
 plugins {
-    id("data.streaming.prototypes.java-library-conventions")
+    id("java-library-conventions")
 }
 
 dependencies {
-    api(project(":app:list"))
+    api(project(":kafka-streams:list"))
 }

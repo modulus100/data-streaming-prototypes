@@ -3,7 +3,8 @@
  */
 
 plugins {
-    id("data.streaming.prototypes.java-application-conventions")
+    id("java-application-conventions")
+    id("org.jetbrains.kotlin.jvm") version "1.8.10"
 }
 
 dependencies {
